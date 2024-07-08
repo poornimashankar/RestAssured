@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T10:14:59 EDT" name="Default suite" finished-at="2024-06-14T10:15:03 EDT" duration-ms="3721">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T10:14:59 EDT" name="Default test" finished-at="2024-06-14T10:15:03 EDT" duration-ms="3721">
+      <class name="RESTAssuredDemo.demo1.DynamicJson">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:RESTAssuredDemo.demo1.DynamicJson@47d9a273]" started-at="2024-06-14T10:14:59 EDT" name="addBook" data-provider="BooksData" finished-at="2024-06-14T10:15:02 EDT" duration-ms="2381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:RESTAssuredDemo.demo1.DynamicJson@47d9a273]" started-at="2024-06-14T10:15:02 EDT" name="addBook" data-provider="BooksData" finished-at="2024-06-14T10:15:03 EDT" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:RESTAssuredDemo.demo1.DynamicJson@47d9a273]" started-at="2024-06-14T10:15:03 EDT" name="addBook" data-provider="BooksData" finished-at="2024-06-14T10:15:03 EDT" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- RESTAssuredDemo.demo1.DynamicJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
